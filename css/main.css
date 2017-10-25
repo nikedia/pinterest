@@ -3,38 +3,64 @@ body {
   font-family: sans-serif;
   margin-left: 0;
   padding: 0;
-
-
 }
 
 header {
-  outline: 1px solida yellow;
-
+  /*outline: 1px solid yellow;*/
+  height: 59px;
 }
 
 nav {
-  outline: 1px solida yellow;
-  width: 90%;
-	max-width: 1100px;
-	min-width: 800px;
-	margin: auto;
+  /*outline: 1px solid green;*/
+  width: 100%;
+  height: 40px;
 }
 
-header span {
-  outline: 1px solida yellow;
+ul li {
+  box-sizing: border-box;
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+}
 
+li:nth-of-type(1) {
+  font-size: 20px;
+}
+
+li:nth-of-type(2) { /*caja*/
+  /*outline: 1px solid pink;*/
+  font-size: 18px;
+  color: #B5B5B5;
+  height: 39px;
+  width: 850px;
+  display: inline-block;
+  background-color: #EFEFEF;
+  color: #838383;
+  margin-left: 20px;
+  margin-right: 15px;
+  position: absolute;
+  left:  5%;
+  top: 5%;
+  transform: translateY(-50%);
+}
+
+  li:nth-of-type(4) {
+  color: #B5B5B5;
+  font-size: 18px;
+  padding-left: 800px;
 }
 
 .icon {
   color: #B5B5B5;
+  font-size: 20px;
+  float: right;
 }
 
 .container {
-  outline: 1px solid green;
-
+  /*outline: 1px solid green;*/
   column-count: 4;
-
-
   width: 90%;
 	max-width: 1100px;
 	min-width: 800px;
@@ -44,25 +70,19 @@ header span {
 }
 
 figure {
-  outline: 1px solid orange;
+  /*outline: 1px solid orange;*/
   /*width: 234px;*/
   float: left;
-
   margin: 0;
   padding: 0;
   margin: 28px;
-
-
 }
 
 img {
   width: 234px;
-
 }
 
 figcaption {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   font-size: 10px;
-
-
 }
